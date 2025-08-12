@@ -3,9 +3,9 @@
 # Evaluación Práctica - Ingeniería de Software V
 
 ## Información del Estudiante
-- **Nombre:** [Tu Nombre Completo]
-- **Código:** [Tu Código de Estudiante]
-- **Fecha:** [Fecha Actual]
+- **Nombre:** Alexis Jaramillo
+- **Código:** A00395655
+- **Fecha:** 11/08/2025
 
 ## Resumen de la Solución
 Esta solución implementa una aplicación Node.js y la despliega en un entorno aislado y reproducible utilizando Docker. El proceso está totalmente automatizado mediante un script de Bash (`deploy.sh`) que maneja la verificación de dependencias, la construcción de la imagen, la ejecución del contenedor y una prueba de salud para confirmar que el despliegue fue exitoso.
@@ -34,7 +34,8 @@ El script `deploy.sh` orquesta todo el despliegue localmente. Sus característic
 3.  **Integración y Entrega Continuas (CI/CD):** Esta solución es el primer paso para un pipeline de CI/CD. El script y el Dockerfile son los componentes que una herramienta como GitHub Actions o Jenkins usaría para automatizar las pruebas y los despliegues en diferentes entornos (desarrollo, producción) tras cada cambio en el código.
 
 ## Captura de Pantalla
-[Aquí, inserta una captura de pantalla de tu terminal después de ejecutar `./deploy.sh` con éxito. Debe mostrar el resumen final.]
+
+![alt text](image.png)
 
 
 ## Mejoras Futuras
